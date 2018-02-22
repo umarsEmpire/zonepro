@@ -1,2 +1,0 @@
-# zonepro
-This zone project
