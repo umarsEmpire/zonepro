@@ -5,10 +5,8 @@
     <title>zone badge screen services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/badge.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/badge.css">
 </head>
 
 <body>
@@ -19,7 +17,8 @@
                 <!-- row -->
                 <div class="col-md-2">
                     <div class="badge-logo">
-                        <img class="img img-responsive" src="images/img-logo-badge.png" />
+                            
+                        <span><img class="img img-responsive" src="images/img-logo-badge.png" /><input type="file" class="form-control" placeholder="logo" id="badge-name"></span>
                     </div>
                 </div>
                 <!-- end col-md-2 -->
@@ -58,12 +57,12 @@
                 <div class="row">
                     <div class="col-md-1 col-md-offset-2">
                         <div class="badge-buttons">
-                            <button class="btn btn-primary btn-lg create-badge-btn">Create Badge</button>
+                            <button class="btn btn-primary create-badge-btn">Create Badge</button>
                         </div>
                     </div>
                     <div class="col-md-7 pull-left col-md-offset-1">
                         <div class="badge-buttons">
-                            <button class="btn btn-default btn-lg create-badge-btn">Cancel</button>
+                            <button class="btn btn-default create-badge-btn">Cancel</button>
                         </div>
                     </div>
                 </div>
@@ -142,6 +141,10 @@
         <!-- end content -->
     </div>
 
-</body>
+<!-- js links -->
 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/zoondashboard.js"></script>
+</body>
 </html>
