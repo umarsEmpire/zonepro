@@ -1,0 +1,62 @@
+.zone-discount-screen{
+    margin-top:40px;
+}
+
+.col-md-1>.discount-buttons>.create-discount-btn{
+    background-color: #0DC8B4;
+    border: none;
+    border-radius: 25px;
+    color:#fff;
+}
+
+
+
+/*tiles*/
+
+.badges-content{
+    margin-top:70px;
+}
+
+discounts-tile-one{
+    border:1px solid #0DC8B4;
+    height: auto;
+    border-radius: 10px;
+    margin-top:20px;
+    
+}
+
+.badges-tiles .col-md-3>discounts-tile-one>p{
+    opacity: 0.5;
+    color: rgb(60, 209, 194);
+    
+}
+
+.optional-vertical-icon>button{
+    background: none;
+    border: none;
+    opacity: 0.5;
+
+}
+.optional-vertical-icon>button>.glyphicon-option-vertical{
+    font-size: 20px;
+
+}
+
+.badge-tile-img{
+    height: auto;
+}
+
+.discounts-tile-one .text-center>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(28, 73, 110);
+}
+
+
+.discounts-tile-one{
+    border:1px solid #0DC8B4;
+    height: auto;
+    border-radius: 10px;
+    margin-top:20px;
+    
+}
