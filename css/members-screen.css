@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+
+/* Header Section */
+
+.header-content-members>.members-zone-logo{
+    margin-left:10px;
+}
+
+.header-content-members>.members-zone-logo>img{
+    height: 60px;
+}
+
+.members-screen>.well{
+    min-height:auto;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+/* Cover Section */
+
+.members-cover{
+    width:100%;
+    height:400px;;
+    background:url('../images/members-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.cover-top-icons>.pull-right>ul>li>a>span{
+    color: #fff;
+    font-size: 28px;
+
+}
+
+.cover-top-icons>.pull-right>ul>li>a:hover{
+    
+background:none;
+}
+
+.members-cover>.container>.cover-heading>center>h2{
+color:#fff;
+}
+
+.cover-heading>center>.cover-text>li{
+    display: inline-block;
+}
+
+.cover-heading>center>.cover-text>li>a{
+   color:#fff;
+   background-color: #2b3438;
+   padding:0px;
+   padding-left:10px;
+   padding-right:10px;
+   border-radius: 5px;
+}
+
+.about-cover-text{
+    margin-top:20px;
+}
+.about-cover-text>p{
+    color: #fff;
+    
+ 
+    border-radius: 10px;
+    padding:5px;
+}
+
+.join-content{
+    min-height:75px;
+    background-color:#242627b0;
+    width:50%;
+    margin-top:10px;
+}
+
+.join-content>.text-join>p{
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    padding:5px;
+}
+
+.join-content>.text-join>p>b{
+    color:#38a4d2;
+}
+
+.join-content>.cover-buttons>button{
+    background-color: red;
+    padding: 3px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 20px;
+    border:none;
+}
+
+/*cover bottam */
+
+.cover-bottom>.well{
+    min-height:90px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #242627b0;
+    border-radius: 0px;
+    border: 0px;
+}
+
+
+.checked-star{
+    color:#ffd600;
+    
+}
+
+.rating-sec{
+    margin-top:20px;
+}
+
+.members-sec{
+    margin-top:20px;
+}
+
+.total-members-list>h4>i{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.genders-sec{
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
