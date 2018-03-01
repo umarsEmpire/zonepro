@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.zone-banner-cover{
+    background-image: url('../images/zone-banner-cover-img.jpg');
+    
+    background-repeat:no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    min-height: 320px;
+}
+
+.checked-star-card{
+    color:orange;
+}
+
+.container-fluid .col-md-3>.banner-card-one>.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.card-footer{
+    background:none;
+    border:none;
+}
+
+.banner-cards{
+    margin-top:4px;
+}
+
+
+@media screen and (max-width: 758px) and (min-width: 375px) {
+    .banner-card-one{
+        margin-top:10px;
+    }
+}
