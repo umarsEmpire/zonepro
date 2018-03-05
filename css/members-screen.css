@@ -142,6 +142,16 @@ color:#fff;
 }
 
 /*about zone*/
+<<<<<<< HEAD
+=======
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
 
 .zone-members-about{
     background-color:#e4eae4;
@@ -186,6 +196,7 @@ color:#fff;
 }
 
 
+<<<<<<< HEAD
 /*images zone */
 
 .zone-members-images {
@@ -193,6 +204,19 @@ color:#fff;
     color: #35373a;
     min-height: 100vh;
     margin-top:2%;
+=======
+/*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+.zone-video-header>h2{
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
     
 }
 
@@ -211,6 +235,7 @@ color:#fff;
     font-size: 18px;
 }
 
+<<<<<<< HEAD
 .tz-gallery {
     padding: 40px;
 }
@@ -235,6 +260,23 @@ color:#fff;
 
 .baguetteBox-button {
     background-color: transparent !important;
+=======
+/*Facilities and special*/
+
+.facilities-special{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 500px;
+    font: normal 16px sans-serif;
+    margin-top:2%;
+}
+
+
+.facilities-special .facilities-thumbnail>.card{
+    margin-top:20px;
+    width:80%;
+  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
 }
 
 
