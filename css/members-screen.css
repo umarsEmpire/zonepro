@@ -34,6 +34,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .cover-top-icons>.pull-right>ul>li>a>span{
@@ -80,6 +82,8 @@ color:#fff;
     background-color:#242627b0;
     width:50%;
     margin-top:10px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
 }
 
 .join-content>.text-join>p{
@@ -137,16 +141,49 @@ color:#fff;
     margin-top:20px;
 }
 
+/*about zone*/
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
 
 
 
 
+/*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+.zone-video-header>h2{
+    
+}
 
 
 
+/*Facilities and special*/
+
+.facilities-special{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 500px;
+    font: normal 16px sans-serif;
+    margin-top:2%;
+}
 
 
-
+.facilities-special .facilities-thumbnail>.card{
+    margin-top:20px;
+    width:80%;
+  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
 
 
 
