@@ -142,6 +142,7 @@ color:#fff;
 }
 
 /*about zone*/
+<<<<<<< HEAD
 
 .zone-members-about{
     background-color:#e4eae4;
@@ -261,8 +262,67 @@ color:#fff;
     
 }
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 942f4e2d8bcf297800d4f8b9086e5851e3c10d0a
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
 
 
+/*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+<<<<<<< HEAD
+/*videos*/
+=======
+.zone-video-header>h2{
+    
+}
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+.zone-video-header>h2{
+    
+}
+
+<<<<<<< HEAD
 /*zone-membership-prizes*/
 
 .zone-membership-prizes{
@@ -271,24 +331,191 @@ color:#fff;
     width:100%;
     margin-top:2%;
     padding-top:20px;
+=======
+/*Facilities and special*/
+
+.facilities-special{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 500px;
+    font: normal 16px sans-serif;
+    margin-top:2%;
+>>>>>>> 942f4e2d8bcf297800d4f8b9086e5851e3c10d0a
 }
 
+/*Facilities and special*/
 
+<<<<<<< HEAD
 .zone-prizing{
     color:crimson;
     background-color: white;
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+=======
+<<<<<<< HEAD
+.zone-facilities{
+   height:auto;
+    
+    margin-top:2%;
+    background-color:#e4eae4;
+>>>>>>> 942f4e2d8bcf297800d4f8b9086e5851e3c10d0a
 }
 
 
+.zone-facilities-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+.zone-card-facilities-text{
+    padding-bottom: 10px;
+}
+
+.zone-card-facilities-img>.img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50%;
+}
 
 
+.zone-facilities-card:hover {
+    transform: scale(1.05);
+    -moz-user-focus: initial;
+    transition: 0.2s ease-in-out;
+}
+
+/*images zone */
+
+.zone-members-images {
+    background-color:#e4eae4;
+    color: #35373a;
+    min-height: 100vh;
+    margin-top:2%;
+    
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+=======
+.facilities-special .facilities-thumbnail>.card{
+    margin-top:20px;
+    width:80%;
+  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
 
 
+<<<<<<< HEAD
+/*images zone */
+
+.zone-members-images {
+    background-color:#e4eae4;
+    color: #35373a;
+    min-height: 100vh;
+    margin-top:2%;
+=======
+/*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+.zone-video-header>h2{
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
+    
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    height:200px;
+}
 
 
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
 
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+<<<<<<< HEAD
+=======
+=======
+/*Facilities and special*/
+
+.facilities-special{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 500px;
+    font: normal 16px sans-serif;
+    margin-top:2%;
+}
+
+
+.facilities-special .facilities-thumbnail>.card{
+    margin-top:20px;
+    width:80%;
+  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
+}
+
+
+.tz-gallery>.row>.col-sm-6>.a{
+    
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
 
 
 
