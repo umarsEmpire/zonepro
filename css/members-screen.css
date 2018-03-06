@@ -142,6 +142,26 @@ color:#fff;
 }
 
 /*about zone*/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
+
+.zone-members-about{
+    background-color:#e4eae4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
 
 .zone-members-about{
     background-color:#e4eae4;
@@ -150,9 +170,23 @@ color:#fff;
 }
 
 
-
-
 /*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+<<<<<<< HEAD
+/*videos*/
+=======
+.zone-video-header>h2{
+    
+}
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
 
 .zone-members-videos{
     background-color:#e4eae4;
@@ -166,10 +200,18 @@ color:#fff;
     
 }
 
+/*Facilities and special*/
 
+.facilities-special{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 500px;
+    font: normal 16px sans-serif;
+    margin-top:2%;
+}
 
 /*Facilities and special*/
 
+<<<<<<< HEAD
 .zone-facilities{
    height:auto;
     
@@ -219,6 +261,47 @@ color:#fff;
     font-weight: bold;
 }
 
+=======
+.facilities-special .facilities-thumbnail>.card{
+    margin-top:20px;
+    width:80%;
+  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+<<<<<<< HEAD
+/*images zone */
+
+.zone-members-images {
+    background-color:#e4eae4;
+    color: #35373a;
+    min-height: 100vh;
+    margin-top:2%;
+=======
+/*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+.zone-video-header>h2{
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
+    
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
 .gallery-container p.page-description {
     text-align: center;
     max-width: 800px;
@@ -227,6 +310,10 @@ color:#fff;
     font-size: 18px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
 .tz-gallery {
     padding: 40px;
 }
@@ -251,6 +338,26 @@ color:#fff;
 
 .baguetteBox-button {
     background-color: transparent !important;
+<<<<<<< HEAD
+=======
+=======
+/*Facilities and special*/
+
+.facilities-special{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 500px;
+    font: normal 16px sans-serif;
+    margin-top:2%;
+}
+
+
+.facilities-special .facilities-thumbnail>.card{
+    margin-top:20px;
+    width:80%;
+  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+>>>>>>> 35928f66b70fc59e8b3af40b58e2987acea89993
+>>>>>>> 2eab1ea9037d2a1be779bd6eb2ceeb03301e88b0
 }
 
 
