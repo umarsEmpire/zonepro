@@ -334,30 +334,33 @@ font-weight: bold;
     padding-bottom: 20px;
 }
 
+
 .zone-trainer-details-profile{
     margin-right:auto;
     margin-left:auto;
+    
 }
 
 .zone-trainer-details-profile>img{
-width:90%;
-height: 320px;
-
+width:100%;
+height: 230px;
 }
 
-
-
 .zone-trainer-details-about>.zone-trainer-about-heading>h2{
-    font-size:34px;
+   
     font-family:Arial, Helvetica, sans-serif;
-    color: #606762;
-    margin-top:45px;
+    font-size:30px;
+    margin-bottom: 0px;
+    color: #7c858c;
+    text-shadow: 1px 1px 4px #74dce6;
+    
 }
 
 .zone-trainer-details-about>.zone-trainer-about-status>h5{
     color:#74dce6;
     font-size:20px;
     margin-left:2px;
+    margin-top:0px;
 }
 
 .zone-trainer-details-about>.zoon-trainer-about-info{
@@ -370,26 +373,11 @@ height: 320px;
     margin-top:10px;
 }
 
-.zone-details-about-followers>.row>.col-sm-1{
-    margin-left:10px;
-}
 
-.zone-details-about-followers>.row>.col-sm-1>.zone-details-about-key>ul>li{
-     
-     color: #b8b9bd;
-     font-size: 12px;
-}
 
-.zone-details-about-followers>.row>.col-sm-1>.zone-details-about-key>.zone-details-about-value>p{
-     
-    color: #2d829c;
-    font-weight: bold;
-    font-size:20px;
-}
 
-.zone-details-about-followers{
-    width: 100%;
-}
+
+
 
 
 
@@ -543,11 +531,7 @@ border: none;
     }
 }
 
-@media screen(max-width:430px){
-    .zone-one-time{
-        padding-top: 22px !important;
-    }
-}
+
 
 @media screen and (max-width: 548px) and (min-width: 400px) {
     .about-cover-text>p{
