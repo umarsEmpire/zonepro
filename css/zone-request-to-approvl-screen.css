@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.zone-request-form-fill{
+    margin-top: 20px;
+    color: #00ccfe;
+}
+
+.zone-approvel-panel-head>.panel-heading>.panel-title>a{
+    text-decoration: none;
+}
+
+.zone-approvel-panel-body-content>.panel-body{
+    background:#e1ecff ;
+}
+
+.zone-approvel-panel-head>.panel-heading{
+    background:#e1ecff ;
+}
+
+.zone-approvel-panel-body-content>.panel-body>ul>li>a{
+    
+    margin-left:20px;
+    padding:5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: #00ccfe;
+    background: #fff;
+}
+

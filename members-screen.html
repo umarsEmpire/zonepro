@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- Css Links -->
     <link rel="stylesheet" href="css/members-screen.css">
 
@@ -226,67 +229,101 @@
 
     <div class="zone-members-images">
 
-        <div class="container gallery-container">
-            <div class="zone-images-header">
-                <div class="row">
-                    <h2 class="text-left">Zone Images</h2>
-                    <br>
-                    <p class="page-description text-left">Text About Zone</p>
+        <div class="zone-details-images-page">
+            <div class="container-fluid">
+                <div id="myCarousel" class="carousel slide zone-img-slider-content" data-ride="carousel">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <img src="images/zone-banner-cover-img.jpg">
+                        </div>
+                        <!-- End Item -->
+
+                    </div>
+                    <!-- End Carousel Inner -->
+
+                    <!-- zone details img slider -->
+                    <div class="zone-details-img-slider">
+                        <ul class="nav nav-pills nav-justified">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a  href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                            <li data-target="#myCarousel" data-slide-to="1" class="zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                            <li data-target="#myCarousel" data-slide-to="2" class="zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                            <li data-target="#myCarousel" data-slide-to="3" class="zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                            <li data-target="#myCarousel" data-slide-to="4" class="zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                            <li data-target="#myCarousel" data-slide-to="5" class="zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                            <li data-target="#myCarousel" data-slide-to="6" class="zone-carousel-img">
+                                <img class="img img-responsive" src="images/zone-banner-cover-img.jpg">
+                                <a href="#">Title
+                                    <small>Lorem ipsum dolor sit</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end zone details img slider -->
                 </div>
+                <!-- End Carousel -->
             </div>
-
-            <div class="tz-gallery">
-
-                <div class="row">
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-1.jpg">
-                            <img src="images/zone-img/img-1.jpg" alt="Park">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-2.jpg">
-                            <img src="images/zone-img/img-2.jpg" alt="Bridge">
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-3.jpg">
-                            <img src="images/zone-img/img-3.jpg" alt="Tunnel">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-4.jpg">
-                            <img src="images/zone-img/img-4.jpg" alt="Coast">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-5.jpg">
-                            <img src="images/zone-img/img-5.jpg" alt="Rails">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-6.jpg">
-                            <img src="images/zone-img/img-6.jpg" alt="Traffic">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-7.jpg">
-                            <img src="images/zone-img/img-7.jpg" alt="Rocks">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-8.jpg">
-                            <img src="images/zone-img/img-8.jpg" alt="Benches">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-4">
-                        <a class="lightbox" href="images/zone-img/img-9.jpg">
-                            <img src="images/zone-img/img-9.jpg" alt="Sky">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
 
     </div>
@@ -605,159 +642,75 @@
         <!-- Zone trainer Info -->
 
         <div class="zone-trainer-details-page">
-
-            <!--   <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
-                        <!-- trainer profile 
-                        <div class="zone-trainer-details-profile">
-                            <img class="img img-responsive img-thumbnail" src="images/zone-owner.png" alt="zoon-detail">
+                    <div class="zone-trainer-info-data">
+                        <div class="col-sm-4 col-md-2 ">
+                            <!-- trainer profile -->
+                            <div class="zone-trainer-details-profile">
+                                <img class="img img-responsive img-circle" src="images/zone-owner.png" alt="zoon-detail">
+                            </div>
+                            <!--end trainer profile -->
                         </div>
-                        <!--end trainer profile 
-                    </div>
-                    <!-- zone-trainer-details-about 
-                    <div class="col-md-8 col-sm-8  col-lg-8 col-xs-12">
-                        <div class="zone-trainer-details-about">
-                            <div class="zone-trainer-about-heading">
-                                <h2>Umars Empire</h2>
-                            </div>
-                            <div class="zone-trainer-about-status">
-                                <h5> Trainer </h5>
-                            </div>
-                            <div class="zoon-trainer-about-info">
-                                <span>Age: 37</span>
-                                <br>
-                                <span>From: Hyderabad</span>
-                                <br>
-                                <span>Zone Name: Royal Zone Tolichowki Hyderabad</span>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="zone-details-about-followers">
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <div class="zone-details-about-key">
-                                        <ul class="nav navbar-nav">
-                                            <li class="text-center"> Followers </li>
-                                        </ul>
-                                        <div class="zone-details-about-value">
-                                            <p class="text-center"> 50 </p>
-                                        </div>
-                                    </div>
+                        <!-- zone-trainer-details-about -->
+                        <div class="col-md-4">
+                            <div class="zone-trainer-details-about">
+                                <div class="zone-trainer-about-heading">
+                                    <h2>Umars Empire</h2>
                                 </div>
-                                <div class="col-sm-1">
-                                    <div class="zone-details-about-key">
-                                        <ul class="nav navbar-nav">
-                                            <li class="text-center"> Followers </li>
-                                        </ul>
-                                        <div class="zone-details-about-value">
-                                            <p class="text-center"> 55 </p>
-                                        </div>
-                                    </div>
+                                <div class="zone-trainer-about-status">
+                                    <h5> Trainer </h5>
                                 </div>
-                                <div class="col-sm-1">
-                                    <div class="zone-details-about-key">
-                                        <ul class="nav navbar-nav">
-                                            <li class="text-center"> Followers </li>
-                                        </ul>
-                                        <div class="zone-details-about-value">
-                                            <p class="text-center"> 54 </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-1">
-                                    <div class="zone-details-about-key">
-                                        <ul class="nav navbar-nav">
-                                            <li class="text-center"> Followers </li>
-                                        </ul>
-                                        <div class="zone-details-about-value">
-                                            <p class="text-center"> 54 </p>
-                                        </div>
-                                    </div>
+
+                                <div class="zoon-trainer-about-info">
+                                    <span>Age: 37</span>
+                                    <br>
+                                    <span>From: Hyderabad</span>
+                                    <br>
+                                    <span>Zone Name: Royal Zone Tolichowki Hyderabad</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end zone-trainer-details-about 
+                    <div class="zone-trainer-info-data">
+                        <div class="col-sm-4 col-md-2">
+                            <!-- trainer profile -->
+                            <div class="zone-trainer-details-profile">
+                                <img class="img img-responsive img-circle" src="images/zone-owner.png" alt="zoon-detail">
+                            </div>
+                            <!--end trainer profile -->
+                        </div>
+                        <!-- zone-trainer-details-about -->
+                        <div class="col-md-4">
+                            <div class="zone-trainer-details-about">
+                                <div class="zone-trainer-about-heading">
+                                    <h2>Umars Empire</h2>
+                                </div>
+                                <div class="zone-trainer-about-status">
+                                    <h5> Trainer </h5>
+                                </div>
+
+                                <div class="zoon-trainer-about-info">
+                                    <span>Age: 37</span>
+                                    <br>
+                                    <span>From: Hyderabad</span>
+                                    <br>
+                                    <span>Zone Name: Royal Zone Tolichowki Hyderabad</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end zone-trainer-details-about -->
                 </div>
             </div>
-
-        </div>-->
-
-            <!-- added new trainer info -->
-
-            <div class="zone-trainer-details-page">
-                <div class="container">
-                    <div class="row">
-                        <div class="zone-trainer-info-data">
-                            <div class="col-md-2">
-                                <!-- trainer profile -->
-                                <div class="zone-trainer-details-profile">
-                                    <img class="img img-responsive img-circle" src="images/zone-owner.png" alt="zoon-detail">
-                                </div>
-                                <!--end trainer profile -->
-                            </div>
-                            <!-- zone-trainer-details-about -->
-                            <div class="col-md-4">
-                                <div class="zone-trainer-details-about">
-                                    <div class="zone-trainer-about-heading">
-                                        <h2>Umars Empire</h2>
-                                    </div>
-                                    <div class="zone-trainer-about-status">
-                                        <h5> Trainer </h5>
-                                    </div>
-                                    <hr>
-                                    <div class="zoon-trainer-about-info">
-                                        <span>Age: 37</span>
-                                        <br>
-                                        <span>From: Hyderabad</span>
-                                        <br>
-                                        <span>Zone Name: Royal Zone Tolichowki Hyderabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="zone-trainer-info-data">
-                            <div class="col-md-2">
-                                <!-- trainer profile -->
-                                <div class="zone-trainer-details-profile">
-                                    <img class="img img-responsive img-circle" src="images/zone-owner.png" alt="zoon-detail">
-                                </div>
-                                <!--end trainer profile -->
-                            </div>
-                            <!-- zone-trainer-details-about -->
-                            <div class="col-md-4">
-                                <div class="zone-trainer-details-about">
-                                    <div class="zone-trainer-about-heading">
-                                        <h2>Umars Empire</h2>
-                                    </div>
-                                    <div class="zone-trainer-about-status">
-                                        <h5> Trainer </h5>
-                                    </div>
-                                    <hr>
-                                    <div class="zoon-trainer-about-info">
-                                        <span>Age: 37</span>
-                                        <br>
-                                        <span>From: Hyderabad</span>
-                                        <br>
-                                        <span>Zone Name: Royal Zone Tolichowki Hyderabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end zone-trainer-details-about -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- End Zone trainer Info   -->
-
         </div>
+
+
         <!-- end zone info -->
         <!-- js links -->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
-
+        <script src="js/members-screen.js"></script>
 </body>
 
 </html>
