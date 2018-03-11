@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.zone-user-details-card-page{
+    background:#dfe5ea;
+    height: 420px;
+}
+
+.user-details-card-header>img{
+    margin-right: auto;
+    margin-left:auto;
+    padding-top:10px;
+    height:200px;
+}
+
+.zone-user-details-cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    min-height: 320px;
+    background:#fff;
+    width:90%;
+    padding: 5px;
+    height: 365px;
+    overflow: hidden;;
+    margin-top:30px;
+}
+
+.user-details-card-body>h5 {
+    color: #6e767d;
+}
+
+.user-details-card-header>h3{
+    color: #6e767d;
+}
+
+
+.user-details-card-footer{
+    
+}
+
+.footer-buttons>.btn-info{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #42d3ff;
+    color: #fff;
+    border: none;
+}
+
+.footer-buttons>.btn-success{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    background: #f0c518;
+    border: none;
+    margin-left: 20px;
+}
+
+
+
+.head-trainer-section>h2{
+    color: #7c858c;
+    font-size:22px;
+    margin-top:10px;
+    
+}

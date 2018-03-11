@@ -310,74 +310,69 @@ font-weight: bold;
 
 /*Zone trainer Info*/
 
-
-
-*{
-    margin:0px;
-    padding:0px;
+.head-trainer-section>h2{
+    color: #7c858c;
+    font-size:22px;
+    margin-top:10px;
 }
 
-.zone-trainer-details-page{
-    margin-top:10%
+
+
+.zone-user-details-card-page{
+    background:#dfe5ea;
+    height: 420px;
 }
 
-.zone-trainer-details-profile{
-    margin-right:auto;
+.user-details-card-header>img{
+    margin-right: auto;
     margin-left:auto;
+    padding-top:10px;
+    height:200px;
+}
+
+.zone-user-details-cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    min-height: 320px;
+    background:#fff;
+    width:90%;
+    padding: 5px;
+    height: 365px;
+    overflow: hidden;
+    margin-top:30px;
+}
+
+.user-details-card-body>h5 {
+    color: #6e767d;
+}
+
+.user-details-card-header>h3{
+    color: #6e767d;
+}
+
+
+.user-details-card-footer{
     
 }
 
-.zone-trainer-details-profile>img{
-
-height:190;
-
+.footer-buttons>.btn-info{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #42d3ff;
+    color: #fff;
+    border: none;
 }
 
-.zone-trainer-details-about>.zone-trainer-about-heading>h2{
-   
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:25px;
-    margin-bottom: 0px;
-    color: #7c858c;
-    
-    
+.footer-buttons>.btn-success{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    background: #f0c518;
+    border: none;
+    margin-left: 20px;
 }
-
-.zone-trainer-details-about>.zone-trainer-about-status>h5{
-    color:#74dce6;
-    font-size:17px;
-    margin-left:2px;
-    margin-top:0px;
-}
-
-.zone-trainer-details-about>.zoon-trainer-about-info{
-    margin-top:10px;
-}
-
-.zone-trainer-details-about>.zoon-trainer-about-info>span{
-    color: #7c858c;
-    font-size:16px;
-    margin-top:10px;
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width: 991px) and (min-width: 768px) {
-    
-.zone-trainer-info-data{
-    width: 50%;
-}
-
-
-
-}
-
-
 
 
 
