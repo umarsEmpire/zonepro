@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.zone-trainer-details-page{
+    margin-top:10%
+}
+
+.zone-trainer-details-profile{
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+.zone-trainer-details-profile>img{
+
+height:190;
+
+}
+
+.zone-trainer-details-about>.zone-trainer-about-heading>h2{
+   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    margin-bottom: 0px;
+    color: #7c858c;
+    
+    
+}
+
+.zone-trainer-details-about>.zone-trainer-about-status>h5{
+    color:#74dce6;
+    font-size:17px;
+    margin-left:2px;
+    margin-top:0px;
+}
+
+.zone-trainer-details-about>.zoon-trainer-about-info{
+    margin-top:10px;
+}
+
+.zone-trainer-details-about>.zoon-trainer-about-info>span{
+    color: #7c858c;
+    font-size:16px;
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    
+.zone-trainer-info-data{
+    width: 50%;
+}
+
+
+
+}
+

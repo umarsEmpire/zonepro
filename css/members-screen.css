@@ -34,6 +34,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .cover-top-icons>.pull-right>ul>li>a>span{
@@ -77,9 +79,11 @@ color:#fff;
 
 .join-content{
     min-height:75px;
-    background-color:#242627b0;
+    background-color:rgba(36, 38, 39, 0.65);
     width:50%;
     margin-top:10px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
 }
 
 .join-content>.text-join>p{
@@ -108,7 +112,7 @@ color:#fff;
     min-height:90px;
     padding: 0px;
     margin-bottom: 0px;
-    background-color: #242627b0;
+    background-color: rgba(36, 38, 39, 0.65);
     border-radius: 0px;
     border: 0px;
 }
@@ -141,11 +145,242 @@ color:#fff;
 
 .zone-members-about{
     background-color:#e4eae4;
+<<<<<<< HEAD
 }
 
 .zone-about-text>h2{
     
 }
+=======
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+
+
+/*videos*/
+
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*Facilities and special*/
+
+.zone-facilities{
+   height:auto;
+    padding-bottom:20px;
+    margin-top:2%;
+    background-color:#e4eae4;
+}
+
+
+.zone-facilities-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius:10px;
+    margin-top:20px;
+    background-color: #fff;
+    
+}
+
+.zone-card-facilities-text{
+    padding-bottom: 10px;
+}
+
+.zone-card-facilities-img>.img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50%;
+}
+
+
+.zone-facilities-card:hover {
+    transform: scale(1.05);
+    -moz-user-focus: initial;
+    transition: 0.2s ease-in-out;
+}
+
+/*images zone */
+
+.zone-members-images {
+    background-color:#e4eae4;
+    color: #35373a;
+    min-height: 50vh;
+    margin-top:2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.zone-details-img-slider>.nav-justified>li>a>small {
+    display: block;
+}
+
+.zone-details-img-slider>.nav-justified>li>a{
+color:#25484b;
+font-size:17px;
+
+}
+
+.zone-details-img-slider>.nav-justified>li>a:hover{
+background:#25484b;
+font-size:17px;
+color: #fff;
+}
+
+.zone-details-images-page>.container-fluid>.zone-img-slider-content>.carousel-inner>.item>img{
+width: 100%;
+}
+
+#myCarousel .nav {
+background: #eee;
+}
+
+
+
+.zone-details-img-slider>.nav-justified>.zone-carousel-img>img {
+width: 100%;
+height: 50px;
+}
+
+
+
+
+
+/*zone-membership-prizes*/
+
+.zone-membership-prizes{
+    height: 400px;
+    background-color:#e4eae4;
+    width:100%;
+    margin-top:2%;
+    padding-top:20px;
+}
+
+
+.zone-prizing{
+    color:crimson;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*zone-facilities-section*/
+
+
+.zone-facilities-section{
+    height: 500px;
+    background-color:#e4eae4;
+    width:100%;
+    margin-top:2%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.zone-facilities-section-heading>h2{
+    color: #606762;
+}
+
+
+.facilities-section-content-icons .gym-floor>img{
+    height: 70px;
+    width: 92px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.facilities-img-about>h6{
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.zone-facilities-section-content{
+    margin-top:50px;
+    padding-bottom: 10px;
+}
+
+/* zone-about-info-details */
+
+.zone-about-info-details{
+    background-color:#e4eae4;
+    
+}
+
+/*Zone trainer Info*/
+
+.head-trainer-section>h2{
+    color: #7c858c;
+    font-size:22px;
+    margin-top:10px;
+}
+
+
+
+.zone-user-details-card-page{
+    background:#dfe5ea;
+    height: 420px;
+}
+
+.user-details-card-header>img{
+    margin-right: auto;
+    margin-left:auto;
+    padding-top:10px;
+    height:200px;
+}
+
+.zone-user-details-cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    min-height: 320px;
+    background:#fff;
+    width:90%;
+    padding: 5px;
+    height: 365px;
+    overflow: hidden;
+    margin-top:30px;
+}
+
+.user-details-card-body>h5 {
+    color: #6e767d;
+}
+
+.user-details-card-header>h3{
+    color: #6e767d;
+}
+
+
+.user-details-card-footer{
+    
+}
+
+.footer-buttons>.btn-info{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #42d3ff;
+    color: #fff;
+    border: none;
+}
+
+.footer-buttons>.btn-success{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    background: #f0c518;
+    border: none;
+    margin-left: 20px;
+}
+>>>>>>> b780b915a70851b9aa6e9eca12031a0992b1aa7b
 
 
 /*videos*/
@@ -163,6 +398,89 @@ color:#fff;
 
 
 
+/*zone owner info*/
+
+
+.zone-owner-details-page{
+   
+    margin-top:2%;
+    height: 400px;
+    
+    width:100%;
+   
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.zone-owner-details-profile{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.zone-owner-details-profile>img{
+width:70%;
+height: 280px;
+border: none;
+
+}
+
+.zone-owner-details-about{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #fff;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    width: 105%;
+    overflow: hidden;
+    height: 175px;
+    margin-top: 40px;
+}
+
+.zone-owner-details-about>.zone-owner-about-heading>h2{
+    font-size:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    color: #7c858c;
+
+}
+
+.zone-owner-details-about>.zone-owner-about-status>h5{
+    color:#74dce6;
+    font-size:16px;
+    margin-left:2px;
+    margin-top: 2px;
+}
+
+.zone-owner-details-about>.zoon-owner-about-info{
+    margin-top:10px;
+}
+
+.zone-owner-details-about>.zoon-owner-about-info>span{
+    color: #7c858c;
+    font-size:18px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.zone-owner-about-text>p{
+    font-size: 14px;
+    color:#418990;
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 767px) and (min-width: 300px) {
+    .zone-details-about-followers>.row>.col-sm-1{
+       display: inline-block;
+       margin-left:20px;
+    }
+}*/
 
 
 
@@ -173,6 +491,114 @@ color:#fff;
 
 
 
+
+
+
+
+
+
+
+
+
+/*large size*/
+
+@media screen and (max-width: 1326px) and (min-width: 1078px) {
+    
+}
+
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    
+    .about-cover-text>p{
+        display: none;
+    }    
+    .join-content{
+        margin-top:70px;
+    }
+    .join-content>.text-join>p{
+        font-size: 10px;
+        padding:5px;
+    }
+
+}
+
+
+/* tab */
+
+@media screen and (max-width: 770px) and (min-width: 668px) {
+    .about-cover-text>p{
+        display: none;
+    }  
+    .join-content{
+        margin-top:12px;
+        width: 77%;
+    }
+}
+
+@media screen and (max-width: 667px) and (min-width: 549px) {
+    .about-cover-text>p{
+        display: none;
+    }  
+    .join-content{
+        width: 64%;
+    }
+    .join-content>.text-join>p{
+        font-size: 10px;
+        padding:5px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 548px) and (min-width: 400px) {
+    .about-cover-text>p{
+        display: none;
+    }  
+    .join-content{
+        width: 77%;
+        margin-top:22px;
+    }
+    .join-content>.text-join>p{
+        font-size: 10px;
+        padding:5px;
+        text-align: center;
+    }
+
+    .cover-heading{
+        margin-top: -12px;
+    }
+
+    .cover-bottom .rating-sec>span{
+        font-size:10px;
+    }
+
+    .cover-bottom .rating-sec>label{
+        font-size:12px;
+    }
+
+    .cover-bottom .members-sec>label,.cover-bottom .members-sec>.total-members-list>h4>b{
+        font-size:12px;
+    }
+
+    .cover-bottom .genders-sec>label,.cover-bottom .genders-sec>.total-members-list>h4>b,.cover-bottom .genders-sec>.total-members-list>h4>b>i{
+        font-size:12px;
+    }
+    .cover-bottom .genders-sec>.total-members-list>h4>i{
+        
+        margin-left: 2px;
+    }
+    
+}
+
+
+
+
+
+/*Mobile*/
+
+@media screen and (max-width: 480px) and (min-width: 280px) {
+    
+}
 
 
 
