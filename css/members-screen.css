@@ -137,10 +137,29 @@ color:#fff;
     margin-top:20px;
 }
 
+/*about zone*/
+
+.zone-members-about{
+    background-color:#e4eae4;
+}
+
+.zone-about-text>h2{
+    
+}
 
 
+/*videos*/
 
+.zone-members-videos{
+    background-color:#e4eae4;
+    min-height: 400px;
+    width: 100%;
+    margin-top:2%;
+}
 
+.zone-video-header>h2{
+    
+}
 
 
 
