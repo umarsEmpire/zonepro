@@ -1,0 +1,1 @@
+const Faq={init:function(){$(".faq__item-question").click(function(){$(this).toggleClass("faq__item-question--active"),$(this).siblings(".faq__item-answer").slideToggle()})}};

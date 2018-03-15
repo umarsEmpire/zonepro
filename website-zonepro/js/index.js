@@ -1,0 +1,1 @@
+const Index={init:function(){Header.init(),Sidebar.init(),Faq.init(),Slick.init(),NoUiSlider.init(),Paroller.init(),Invest.init(),Page.init(),Desc.init(),Timer.init(),Forms.init()}};Index.init();
