@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+
+.zone-request-form-fill{
+    margin-top: 20px;
+}
+.zone-approvel-panel-head>.panel-heading>.panel-title>a{
+    text-decoration: none;
+}
+.zone-approvel-panel-body-content>.panel-body{
+    background:#e1ecff ;
+}
+.zone-approvel-panel-body-content>.panel-body>ul>li>a{
+=======
 *{
     margin:0px;
     padding: 0px;
@@ -23,11 +36,15 @@
 
 .zone-approvel-panel-body-content>.panel-body>ul>li>a{
     
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     margin-left:20px;
     padding:5px;
     padding-left: 17px;
     padding-right: 17px;
+<<<<<<< HEAD
+=======
     color: #00ccfe;
     background: #fff;
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 }
 

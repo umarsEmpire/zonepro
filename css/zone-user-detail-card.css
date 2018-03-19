@@ -19,24 +19,50 @@
 .zone-user-details-cards{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius:10px;
+<<<<<<< HEAD
+    min-height: auto;
+=======
     min-height: 320px;
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     background:#fff;
     width:90%;
     padding: 5px;
 }
 
+<<<<<<< HEAD
+.user-details-card-body>h5 {
+    color: #34b8ec;
+    font-size: 18px;
+}
+
+.user-details-card-body>h6 {
+    color: #6e767d;
+    font-size: 15px;
+}
+
+.zone-member-user-details-text{
+    font-size: 14px;
+=======
 .user-details-card-body>h3 {
     color: #34b8ec;
 }
 
 .user-details-card-body>h4 {
     color: #6e767d;
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 }
 
 .user-details-card-footer{
     margin-top:25px;
 }
 
+<<<<<<< HEAD
+.user-details-card-buttons>.btn{
+    display: inline-block;
+}
+
+=======
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 .user-details-card-buttons>.btn-info{
     border-radius: 20px;
     padding-left: 25px;
@@ -54,4 +80,12 @@
     background: #f0c518;
     border: none;
     margin-left: 20px;
+<<<<<<< HEAD
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    
+=======
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 }

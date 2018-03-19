@@ -146,12 +146,15 @@ color:#fff;
 .zone-members-about{
     background-color:#e4eae4;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 }
 
 .zone-about-text>h2{
     
 }
 =======
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -277,7 +280,11 @@ height: 50px;
 
 
 .zone-facilities-section{
+<<<<<<< HEAD
+    height: auto;
+=======
     height: 500px;
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     background-color:#e4eae4;
     width:100%;
     margin-top:2%;
@@ -352,6 +359,37 @@ font-weight: bold;
 .user-details-card-body>h5 {
     color: #6e767d;
 }
+<<<<<<< HEAD
+
+.user-details-card-header>h3{
+    color: #6e767d;
+}
+
+
+.user-details-card-footer{
+    
+}
+
+.footer-buttons>.btn-info{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #42d3ff;
+    color: #fff;
+    border: none;
+}
+
+.footer-buttons>.btn-success{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    background: #f0c518;
+    border: none;
+    margin-left: 20px;
+}
+=======
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 
 .user-details-card-header>h3{
     color: #6e767d;
@@ -382,6 +420,76 @@ font-weight: bold;
 }
 >>>>>>> b780b915a70851b9aa6e9eca12031a0992b1aa7b
 
+/*zone owner info*/
+
+
+.zone-owner-details-page{
+   
+    margin-top:2%;
+    height: 400px;
+    
+    width:100%;
+   
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.zone-owner-details-profile{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.zone-owner-details-profile>img{
+width:70%;
+height: 280px;
+border: none;
+
+}
+
+.zone-owner-details-about{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #fff;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    width: 105%;
+    overflow: hidden;
+    height: 175px;
+    margin-top: 40px;
+}
+
+.zone-owner-details-about>.zone-owner-about-heading>h2{
+    font-size:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    color: #7c858c;
+
+}
+
+.zone-owner-details-about>.zone-owner-about-status>h5{
+    color:#74dce6;
+    font-size:16px;
+    margin-left:2px;
+    margin-top: 2px;
+}
+
+.zone-owner-details-about>.zoon-owner-about-info{
+    margin-top:10px;
+}
+
+.zone-owner-details-about>.zoon-owner-about-info>span{
+    color: #7c858c;
+    font-size:18px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.zone-owner-about-text>p{
+    font-size: 14px;
+    color:#418990;
+    margin-top:5px;
+}
 
 /*videos*/
 
@@ -473,6 +581,12 @@ border: none;
 
 
 
+/*@media screen and (max-width: 767px) and (min-width: 300px) {
+    .zone-details-about-followers>.row>.col-sm-1{
+       display: inline-block;
+       margin-left:20px;
+    }
+}*/
 
 
 /*@media screen and (max-width: 767px) and (min-width: 300px) {
@@ -482,6 +596,121 @@ border: none;
     }
 }*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*large size*/
+
+@media screen and (max-width: 1326px) and (min-width: 1078px) {
+    
+}
+
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    
+    .about-cover-text>p{
+        display: none;
+    }    
+    .join-content{
+        margin-top:70px;
+    }
+    .join-content>.text-join>p{
+        font-size: 10px;
+        padding:5px;
+    }
+
+}
+
+
+/* tab */
+
+@media screen and (max-width: 770px) and (min-width: 668px) {
+    .about-cover-text>p{
+        display: none;
+    }  
+    .join-content{
+        margin-top:12px;
+        width: 77%;
+    }
+}
+
+@media screen and (max-width: 667px) and (min-width: 549px) {
+    .about-cover-text>p{
+        display: none;
+    }  
+    .join-content{
+        width: 64%;
+    }
+    .join-content>.text-join>p{
+        font-size: 10px;
+        padding:5px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 548px) and (min-width: 400px) {
+    .about-cover-text>p{
+        display: none;
+    }  
+    .join-content{
+        width: 77%;
+        margin-top:22px;
+    }
+    .join-content>.text-join>p{
+        font-size: 10px;
+        padding:5px;
+        text-align: center;
+    }
+
+    .cover-heading{
+        margin-top: -12px;
+    }
+
+    .cover-bottom .rating-sec>span{
+        font-size:10px;
+    }
+
+    .cover-bottom .rating-sec>label{
+        font-size:12px;
+    }
+
+    .cover-bottom .members-sec>label,.cover-bottom .members-sec>.total-members-list>h4>b{
+        font-size:12px;
+    }
+
+    .cover-bottom .genders-sec>label,.cover-bottom .genders-sec>.total-members-list>h4>b,.cover-bottom .genders-sec>.total-members-list>h4>b>i{
+        font-size:12px;
+    }
+    .cover-bottom .genders-sec>.total-members-list>h4>i{
+        
+        margin-left: 2px;
+    }
+    
+}
+
+
+
+
+
+/*Mobile*/
+
+@media screen and (max-width: 480px) and (min-width: 280px) {
+    
+}
 
 
 

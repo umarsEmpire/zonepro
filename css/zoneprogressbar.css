@@ -1,0 +1,43 @@
+.zone-mobo-for-rating-screen{
+    margin-right:auto;
+    margin-left:auto;
+    background-color:rgba(36, 38, 39, 0.65);
+   
+}
+
+.zone-rating-mobo-section{
+    background-image: url('../images/zone-img/zone-banner-card4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zone-mobo-for-rating-screen>label{
+color:#fff;
+padding:0px;
+margin: 0px;
+text-align: left;
+
+}
+
+.zone-mobo-rating{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 8px;
+   padding:0px;
+margin: 0px;
+}
+
+.zone-mobo-rating>.progress-bar{
+background-color: #38a4d2;
+}
+
+.zone-mobo-rating{
+    display:inline-flex;
+}
+
+.mobo-rating-text{
+    color:#fff;
+    font-size: 15px;
+    margin-left: 10px;
+}

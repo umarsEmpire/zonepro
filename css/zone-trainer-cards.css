@@ -4,10 +4,15 @@
 
 }
 
+<<<<<<< HEAD
+
+
+=======
 .zone-user-details-card-page{
     background:#dfe5ea;
     height: 420px;
 }
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 
 .user-details-card-header>img{
     margin-right: auto;
@@ -19,11 +24,27 @@
 .zone-user-details-cards{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius:10px;
+<<<<<<< HEAD
+    
+=======
     min-height: 320px;
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     background:#fff;
     width:90%;
     padding: 5px;
     height: 365px;
+<<<<<<< HEAD
+    overflow: hidden;
+    margin-top:30px;
+}
+.user-details-card-body>h5 {
+    color: #6e767d;
+}
+.user-details-card-header>h3{
+    color: #6e767d;
+}
+.footer-buttons>.view-btn{
+=======
     overflow: hidden;;
     margin-top:30px;
 }
@@ -42,6 +63,7 @@
 }
 
 .footer-buttons>.btn-info{
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
@@ -49,8 +71,12 @@
     color: #fff;
     border: none;
 }
+<<<<<<< HEAD
+.footer-buttons>.abt-btn{
+=======
 
 .footer-buttons>.btn-success{
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
@@ -59,12 +85,18 @@
     border: none;
     margin-left: 20px;
 }
+<<<<<<< HEAD
+=======
 
 
 
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 .head-trainer-section>h2{
     color: #7c858c;
     font-size:22px;
     margin-top:10px;
+<<<<<<< HEAD
+=======
     
+>>>>>>> beffc04b8cd7deb4c7f1b89d40ccf133c712aecb
 }
