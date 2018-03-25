@@ -1,0 +1,19 @@
+.print-btn>.btn-primary{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #42d3ff;
+    color: #fff;
+    border: none;
+}
+
+.invoive-screen>.well{
+    background:rgba(0, 0, 0, 0.03);
+    border: none;
+width: 100%;
+}
+
+.invoive-screen{
+    color: rgba(0, 0, 0, 0.63);
+    padding:10px;
+}
